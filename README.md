@@ -11,35 +11,40 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity]
-class conolizer
+class Conolizer
 {
+    #[ORM\Id]
+    #[ORM\GeneratedValue]
+    #[ORM\Column]
+    private ?int $id = null;
+
     private string $role = 'full stack web dev';
-    
+
     private array $currentlyBuilding = [
-        'nothing special, on vacation'
+        'nothing special, on vacation',
     ];
-    
+
     private array $currentlyLearning = [
         'Redis',
         'Docker',
     ];
-    
+
     private array $stuff = [
-        'Languages' => ['typeScript', 'javaScript', 'php'],
+        'Languages'  => ['typeScript', 'javaScript', 'php'],
         'Frameworks' => ['react', 'nextjs', 'symfony'],
-        'Databases' => ['postegresql', 'mysql', 'mongodb', 'redis'],
-        'Systems' => ['arch', 'cachyOS', 'void', 'windows'],
-        'Gaming' => ['roblox', 'HOI4'],
-        'Hobbies' => ['listening to music']
+        'Databases'  => ['postgresql', 'mysql', 'mongodb', 'redis'],
+        'Systems'    => ['arch', 'cachyOS', 'void', 'windows'],
+        'Gaming'     => ['roblox', 'HOI4'],
+        'Hobbies'    => ['listening to music'],
     ];
 
     public function getBio(): array
     {
         return [
-            'role' => $this->role,
+            'role'     => $this->role,
             'building' => $this->currentlyBuilding,
             'learning' => $this->currentlyLearning,
-            'stuff' => $this->stuff,
+            'stuff'    => $this->stuff,
         ];
     }
 }
