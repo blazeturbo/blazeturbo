@@ -4,8 +4,6 @@
 
 
 ```php
-<?php
-
 namespace App\Entity;
 
 use DateTime;
