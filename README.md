@@ -4,37 +4,28 @@
 
 
 ```php
-
 namespace App\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
-
-#[ORM\Entity]
 class Conolizer
 {
-    #[ORM\Id]
-    #[ORM\GeneratedValue]
-    #[ORM\Column]
-    private ?int $id = null;
-
     private string $role = 'full stack web dev';
-
+    
     private array $currentlyBuilding = [
-        'nothing special, on vacation',
+        'nothing special, on vacation'
     ];
-
+    
     private array $currentlyLearning = [
         'Redis',
         'Docker',
     ];
-
+    
     private array $stuff = [
         'Languages'  => ['typeScript', 'javaScript', 'php'],
         'Frameworks' => ['react', 'nextjs', 'symfony'],
         'Databases'  => ['postgresql', 'mysql', 'mongodb', 'redis'],
         'Systems'    => ['arch', 'cachyOS', 'void', 'windows'],
         'Gaming'     => ['roblox', 'HOI4'],
-        'Hobbies'    => ['listening to music'],
+        'Hobbies'    => ['listening to music']
     ];
 
     public function getBio(): array
