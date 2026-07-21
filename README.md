@@ -4,14 +4,19 @@
 
 
 ```php
+<?php
+
 namespace App\Entity;
+
+use DateTime;
+use DateTimeZone;
 
 class Conolizer
 {
     private string $role = 'full stack web dev';
     
     private array $currentlyBuilding = [
-        'nothing special, on vacation'
+        'nothing special'
     ];
     
     private array $currentlyLearning = [
@@ -19,22 +24,27 @@ class Conolizer
         'Docker',
     ];
     
-    private array $stuff = [
-        'Languages'  => ['typeScript', 'javaScript', 'php'],
-        'Frameworks' => ['react', 'nextjs', 'symfony'],
-        'Databases'  => ['postgresql', 'mysql', 'mongodb', 'redis'],
-        'Systems'    => ['arch', 'cachyOS', 'void', 'windows'],
-        'Gaming'     => ['roblox', 'HOI4'],
-        'Hobbies'    => ['listening to music']
+    private array $aboutme = [
+        'languages'  => ['french', 'english'],
+        'hobbies' => ['gaming', 'coding', 'music'],
+        'fav_foods' => ['friedchicken', 'pizza', 'steak'],
     ];
+
+    private function isSleeping(): bool
+    {
+        $now = new DateTime('now', new DateTimeZone('Europe/Paris'));
+        $hour = (int) $now->format('H');
+
+        return $hour >= 1 && $hour < 10;
+    }
 
     public function getBio(): array
     {
         return [
             'role'     => $this->role,
-            'building' => $this->currentlyBuilding,
+            'building' => $this->isSleeping() ? ['sleeping'] : $this->currentlyBuilding,
             'learning' => $this->currentlyLearning,
-            'stuff'    => $this->stuff,
+            'aboutme'    => $this->aboutme,
         ];
     }
 }
