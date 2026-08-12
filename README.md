@@ -6,11 +6,9 @@
 
 <br>
 
-<table>
   <tr>
       <h3>hey there, I'm omega!</h3>
   </tr>
-</table>
 
 <div align="center">
   <a href="https://postimg.cc/XBBCDcJP">
