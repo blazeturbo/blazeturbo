@@ -81,17 +81,6 @@ class Conolizer
 
 <br>
 
-### - distros and oses I used
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux" />
-  <img src="https://img.shields.io/badge/CachyOS-00A88F?style=for-the-badge&logo=linux&logoColor=white" alt="CachyOS" />
-  <img src="https://img.shields.io/badge/Void_Linux-478061?style=for-the-badge&logo=voidlinux&logoColor=white" alt="Void Linux" />
-  <img src="https://img.shields.io/badge/Windows_11-0078D4?style=for-the-badge&logo=windows11&logoColor=white" alt="Windows 11" />
-</p>
-
-<br>
-
 <br>
 
 <p align="center">
