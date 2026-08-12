@@ -6,7 +6,7 @@
 
 <div align="center">
    <tr>
-    <h3>hey there, I'm pizza deliverer!</h3>
+    <h3>hey there, I'm blaze!</h3>
   </tr>
 </div>
 <div align="left">
