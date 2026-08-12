@@ -8,9 +8,7 @@
 
 <table>
   <tr>
-    <td colspan="2" valign="middle">
-      <h3>hey there! i'm omega</h3>
-    </td>
+      <h3>hey there, I'm omega!</h3>
   </tr>
 </table>
 
