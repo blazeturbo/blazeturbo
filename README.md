@@ -9,8 +9,9 @@
     <h3>hey there, I'm pizza deliverer!</h3>
   </tr>
 </div>
-
-### - stuff I know (stacks ig)
+<div align="left">
+ <h5>stuff I know (stacks ig)</h5>
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -29,14 +30,17 @@
   <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="ExpoJS"/>
 </p>
 
-## - hardware I got lol
+<div align="left">
+ <h5>my hardware lol</h5>
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CPU-Intel_i5--12400F-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Intel Core i5-12400F"/>
   <img src="https://img.shields.io/badge/GPU-NVIDIA_RTX_4060_Ti-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA RTX 4060 Ti"/>
-  <img src="https://img.shields.io/badge/MOBO-Gigabyte_B760M_DS3H_AX-E60012?style=for-the-badge&logo=gigabyte&logoColor=white" alt="Gigabyte B760M DS3H AX"/>
+  <img src="https://img.shields.io/badge/MOBO-Gigabyte_B760M_DS3H_AX_DDR4-E60012?style=for-the-badge&logo=gigabyte&logoColor=white" alt="Gigabyte B760M DS3H AX DDR4"/>
   <img src="https://img.shields.io/badge/RAM-16GB_DDR4-0055FF?style=for-the-badge" alt="16GB DDR4"/>
   <img src="https://img.shields.io/badge/SSD-1TB_Kingston_NVMe-FF6600?style=for-the-badge&logo=kingston&logoColor=white" alt="1TB Kingston NVMe"/>
+  <img src="https://img.shields.io/badge/MONITOR-Samsung_Odyssey_G40B_240Hz-1428A0?style=for-the-badge&logo=samsung&logoColor=white" alt="Samsung Odyssey G40B"/>
 </p>
 
 ```php
@@ -83,9 +87,8 @@ class Conolizer
     }
 }
 ```
-
 <br>
 
-<p align="center">
+<h4 align="center">
   that's all folks!
-</p>
+</h4>
