@@ -4,8 +4,6 @@
   </a>
 </div>
 
-<br>
-
   <tr>
       <h3>hey there, I'm omega!</h3>
   </tr>
