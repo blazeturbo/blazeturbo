@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://postimg.cc/pytCmbKy">
-    <img src="https://files.catbox.moe/lq5yd5.gif](https://files.catbox.moe/wws2s9.jpg" width="100%" alt="Banner"/>
+    <img src="https://files.catbox.moe/wws2s9.jpg" width="100%" alt="Banner"/>
   </a>
 </div>
 
