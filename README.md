@@ -8,45 +8,9 @@
 
 <table>
   <tr>
-    <td colspan="2" align="center" valign="middle">
-      <a href="https://github.com/">
-        <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-      </a>
-      &nbsp;
-      <a href="mailto:YOUR_EMAIL">
-        <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-      </a>
-    </td>
-  </tr>
-
-  <tr>
     <td colspan="2" valign="middle">
-      <h3>Hey there! I'm rad.</h3>
+      <h3>hey there! i'm omega</h3>
     </td>
-  </tr>
-
-  <tr>
-    <td valign="middle" width="70%">
-      <br>
-
-```
-  <b>Developer & Linux Enthusiast</b><br><br>
-
-  I'm a developer from France who enjoys building software, experimenting with new technologies, and understanding how things work under the hood.<br><br>
-
-  I'm particularly interested in <b>web development, Linux, system customization, AI-assisted development, automation, and game development</b>. I enjoy taking ideas apart, rebuilding them, and turning experiments into something useful.<br><br>
-
-  My main environment is <b>CachyOS</b>, based on Arch Linux, with KDE Plasma as my desktop. A lot of my time goes into development, system configuration, performance tuning, and learning something new along the way.
-
-</td>
-
-<td align="center" valign="middle" width="30%">
-  <a href="https://postimg.cc/NyFKLkth">
-    <img src="https://i.postimg.cc/YSfYndyS/20260612-021944.png" width="220" alt="About Me"/>
-  </a>
-</td>
-```
-
   </tr>
 </table>
 
@@ -56,53 +20,29 @@
   </a>
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Web+Developer;Linux+Enthusiast;AI-Assisted+Development;Automation+%26+Experimentation;System+Customization;Always+Learning" alt="Typing SVG"/>
-</p>
-
 ```php
-<?php
-
-namespace App;
+namespace App\Entity;
 
 use DateTime;
 use DateTimeZone;
 
-class Rad
+class Conolizer
 {
-    private string $role = 'developer';
-
+    private string $role = 'full stack web dev';
+    
     private array $currentlyBuilding = [
-        'web projects',
-        'automation tools',
-        'personal experiments'
+        'nothing special'
     ];
-
+    
     private array $currentlyLearning = [
-        'Linux internals',
-        'system optimization',
-        'AI-assisted development',
-        'game development'
+        'Redis',
+        'Docker',
     ];
-
-    private array $stack = [
-        'TypeScript',
-        'JavaScript',
-        'React',
-        'Next.js',
-        'PHP',
-        'Symfony',
-        'Node.js',
-        'MySQL',
-        'PostgreSQL',
-    ];
-
-    private array $aboutMe = [
-        'languages' => ['French', 'English'],
-        'os' => 'CachyOS / Arch Linux',
-        'desktop' => 'KDE Plasma',
-        'shell' => 'fish',
-        'hobbies' => ['coding', 'Linux', 'music', 'experimentation'],
+    
+    private array $aboutme = [
+        'languages'  => ['french', 'english'],
+        'hobbies' => ['gaming', 'coding', 'music'],
+        'fav_foods' => ['friedchicken', 'pizza', 'steak'],
     ];
 
     private function isSleeping(): bool
@@ -116,13 +56,10 @@ class Rad
     public function getBio(): array
     {
         return [
-            'role' => $this->role,
-            'building' => $this->isSleeping()
-                ? ['sleeping']
-                : $this->currentlyBuilding,
+            'role'     => $this->role,
+            'building' => $this->isSleeping() ? ['sleeping'] : $this->currentlyBuilding,
             'learning' => $this->currentlyLearning,
-            'stack' => $this->stack,
-            'about' => $this->aboutMe,
+            'aboutme'    => $this->aboutme,
         ];
     }
 }
@@ -154,7 +91,7 @@ class Rad
 
 <br>
 
-### - stack
+### - stacks
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
@@ -174,30 +111,11 @@ class Rad
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
   <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
-</p>
-
-<br>
-
-### - interests
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
-  <img src="https://img.shields.io/badge/AI-000000?style=for-the-badge&logo=openai&logoColor=white" alt="AI"/>
-  <img src="https://img.shields.io/badge/Automation-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="Automation"/>
-  <img src="https://img.shields.io/badge/System_Optimization-000000?style=for-the-badge&logo=archlinux&logoColor=white" alt="System Optimization"/>
-  <img src="https://img.shields.io/badge/Game_Development-000000?style=for-the-badge&logo=roblox&logoColor=white" alt="Game Development"/>
 </p>
 
 <br>
 
 <p align="center">
-  <i>Build. Break. Understand. Rebuild.</i>
-</p>
-
-<p align="center">
-  Thanks for checking out my profile.
+  that's all folks!
 </p>
