@@ -5,7 +5,7 @@
 </div>
 
   <tr>
-      <h3>hey there, I'm omega!</h3>
+      <h3>hey there, I'm pizza deliverer!</h3>
   </tr>
 
 <div align="center">
