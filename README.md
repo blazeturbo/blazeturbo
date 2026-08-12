@@ -50,7 +50,7 @@ class Conolizer
 
 <br>
 
-### - Hardware
+### - hardware i'm working w
 
 <p align="center">
   <img src="https://img.shields.io/badge/CPU-Intel_i5--12400F-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Intel i5-12400F" />
