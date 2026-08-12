@@ -73,18 +73,6 @@ class Conolizer
 
 <br>
 
-### - operating system
-
-<p align="center">
-  <img src="https://img.shields.io/badge/OS-CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="CachyOS"/>
-  <img src="https://img.shields.io/badge/Base-Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white" alt="Arch Linux"/>
-  <img src="https://img.shields.io/badge/Desktop-KDE_Plasma-1D99F3?style=for-the-badge&logo=kde&logoColor=white" alt="KDE Plasma"/>
-  <img src="https://img.shields.io/badge/Shell-fish-4AAE46?style=for-the-badge&logo=fishshell&logoColor=white" alt="fish shell"/>
-  <img src="https://img.shields.io/badge/Kernel-Linux-000000?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
-</p>
-
-<br>
-
 ### - stacks
 
 <p align="center">
