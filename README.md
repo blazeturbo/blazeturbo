@@ -1,10 +1,4 @@
 <div align="center">
-  <a href="https://postimg.cc/XBBCDcJP">
-    <img src="https://files.catbox.moe/btbm9r.jpg" width="100%" height="200" alt="uhh idk maybe grass"/>
-  </a>
-</div>
-
-<div align="center">
    <tr>
     <h3>hey there, I'm blaze!</h3>
   </tr>
